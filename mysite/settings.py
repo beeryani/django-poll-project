@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/priyashagupta/vscode/git-projects/first_django_app/polls_project/polls/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -67,6 +67,10 @@ TEMPLATES = [
         },
     },
 ]
+
+TEMPLATE_DIRS = (
+    '/Users/priyashagupta/vscode/git-projects/first_django_app/polls_project/templates',
+)
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
