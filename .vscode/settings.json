@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/priyashagupta/vscode/git-projects/first_django_app/django-env/bin/python3",
+    "python.analysis.extraPaths": ["polls_project","/Users/priyashagupta/vscode/git-projects/first_django_app/polls_project/"]
+}
