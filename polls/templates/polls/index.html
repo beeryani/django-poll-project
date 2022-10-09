@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<head>
+    <title>Answer these questions!</title>
+</head>
+<h1>
+    Welcome to the polling application !
+</h1>
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -7,3 +14,5 @@
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+</html>
